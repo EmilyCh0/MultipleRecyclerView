@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.multiplerecyclerview.databinding.ItemHorizontalBinding
 
 class HorizontalAdapter(
-    private val items: List<Item>
+    private val items: List<HorizontalItem>
 ) : RecyclerView.Adapter<HorizontalViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HorizontalViewHolder {

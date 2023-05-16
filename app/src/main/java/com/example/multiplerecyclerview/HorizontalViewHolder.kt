@@ -6,7 +6,7 @@ import com.example.multiplerecyclerview.databinding.ItemHorizontalBinding
 class HorizontalViewHolder(
     private val binding: ItemHorizontalBinding
 ) : RecyclerView.ViewHolder(binding.root) {
-    fun bind(item: Item) {
+    fun bind(item: HorizontalItem) {
         binding.title.text = item.title
     }
 }

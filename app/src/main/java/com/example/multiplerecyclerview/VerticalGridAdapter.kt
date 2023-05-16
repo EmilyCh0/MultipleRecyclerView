@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.multiplerecyclerview.databinding.ItemVerticalGridBinding
 
 class VerticalGridAdapter(
-    private val items: List<Item>
+    private val items: List<VerticalGridItem>
 ) : RecyclerView.Adapter<VerticalGridViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VerticalGridViewHolder {

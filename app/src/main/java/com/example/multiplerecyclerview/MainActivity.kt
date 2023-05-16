@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        val horizontalItems = List(10) { Item("H${it}") }
-        binding.horizontalRecyclerview.adapter = HorizontalAdapter(horizontalItems)
+        val horizontalHorizontalItems = List(10) { HorizontalItem("H${it}") }
+        binding.horizontalRecyclerview.adapter = HorizontalAdapter(horizontalHorizontalItems)
 
-        val verticalGridItems = List(20) { Item("VG${it}") }
-        binding.verticalGridRecyclerview.adapter = VerticalGridAdapter(verticalGridItems)
+        val verticalGridHorizontalItems = List(20) { VerticalGridItem("VG${it}") }
+        binding.verticalGridRecyclerview.adapter = VerticalGridAdapter(verticalGridHorizontalItems)
     }
 }
