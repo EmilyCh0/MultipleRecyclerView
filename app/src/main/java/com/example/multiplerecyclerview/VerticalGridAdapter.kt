@@ -23,4 +23,10 @@ class VerticalGridAdapter(
     override fun onBindViewHolder(holder: VerticalGridViewHolder, position: Int) {
         holder.bind(items[position])
     }
+
+    override fun getItemViewType(position: Int): Int = VIEW_TYPE
+
+    companion object {
+        const val VIEW_TYPE = 222
+    }
 }
