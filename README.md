@@ -8,5 +8,6 @@
 
 
 
-![main](https://github.com/EmilyCh0/MultipleRecyclerView/assets/67777523/df510f76-f8cc-4333-862b-8952b39dbbb5)
+![main](https://github.com/EmilyCh0/MultipleRecyclerView/assets/67777523/3f12e192-330c-4dca-acad-086236448e62)
+
 
